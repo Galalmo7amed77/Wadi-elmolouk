@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wadi El Molouk for Spinning & Weaving | وادي الملوك للغزل والنسيج</title>
+<meta name="description" content="Egyptian textile manufacturer in Samanoud, Gharbia, since 1999. Cotton yarn, woven fabrics, tent and curtain fabrics and custom manufacturing for B2B buyers.">
+<meta property="og:title" content="Wadi El Molouk for Spinning & Weaving">
+<meta property="og:description" content="Engineering fabrics from yarn to woven fabric. Samanoud, Egypt, since 1999.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/logo.jpg">
+<meta name="theme-color" content="#0b1d3a">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0b1d3a;--navy2:#16305c;--gold:#b8923e;--ink:#1a1a1a;--gray:#5a5f6a;--off:#f7f5f0;--line:#e4e0d6;--white:#fff;--r:14px;--ff:'Cairo','Segoe UI',Tahoma,sans-serif;--fh:'Playfair Display',Georgia,serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:84px;overflow-x:hidden}
+body{font-family:var(--ff);color:var(--ink);background:var(--white);line-height:1.7;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img,svg{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+section{padding:96px 0}
+.alt{background:var(--off)}
+.eyebrow{font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:700;display:block;margin-bottom:10px}
+h1,h2,h3{font-weight:700;line-height:1.25}
+h1,h2{font-family:var(--fh)}
+h2{font-size:clamp(1.8rem,3.4vw,2.6rem);color:var(--navy);margin-bottom:14px}
+.lead{color:var(--gray);max-width:640px;font-size:1.04rem}
+.head{margin-bottom:48px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 26px;border-radius:999px;font:600 .98rem var(--ff);text-decoration:none;border:1px solid transparent;cursor:pointer;transition:transform .25s,box-shadow .25s,background .25s}
+.btn:hover{transform:translateY(-2px)}
+.btn-gold{background:linear-gradient(135deg,#d4b06a,var(--gold));color:var(--navy);box-shadow:0 8px 22px rgba(184,146,62,.35)}
+.btn-line{border-color:rgba(255,255,255,.55);color:#fff;background:transparent}
+.btn-line:hover{background:rgba(255,255,255,.1)}
+.btn-navy{background:var(--navy);color:#fff}
+.btn-navy:hover{background:var(--navy2)}
+/* NAV */
+header{position:fixed;inset:0 0 auto;z-index:50;transition:background .3s,box-shadow .3s;padding-top:env(safe-area-inset-top,0px)}
+header.solid{background:rgba(255,255,255,.96);box-shadow:0 1px 0 var(--line);backdrop-filter:blur(8px)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:74px;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff;font-weight:700;line-height:1.2;font-size:.95rem}
+.logo{width:46px;height:46px;border-radius:50%;object-fit:cover;flex:none;box-shadow:0 0 0 2px var(--gold)}
+.brand small{display:block;font-size:.72rem;opacity:.8;font-weight:400}
+header.solid .brand,header.solid .nav-links a{color:var(--navy)}
+.nav-links{display:flex;gap:22px;list-style:none;align-items:center}
+.nav-links a{text-decoration:none;color:#fff;font-size:.9rem;position:relative;padding:4px 0}
+.nav-links a::after{content:"";position:absolute;inset:auto 0 0;height:1px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+[dir=rtl] .nav-links a::after{transform-origin:right}
+.nav-links a:hover::after{transform:scaleX(1)}
+.lang{border:1px solid rgba(255,255,255,.6);background:transparent;color:#fff;border-radius:999px;padding:6px 14px;cursor:pointer;font:600 .85rem var(--ff)}
+header.solid .lang{color:var(--navy);border-color:var(--navy)}
+.burger{display:none;background:none;border:0;color:#fff;font-size:1.6rem;cursor:pointer;width:44px;height:44px}
+header.solid .burger{color:var(--navy)}
+/* HERO */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;color:#fff;background:var(--navy);overflow:hidden;padding:120px 0 90px}
+.hero-img{position:absolute;inset:0;background:
+radial-gradient(ellipse at 70% 30%,rgba(184,146,62,.22),transparent 60%),
+repeating-linear-gradient(90deg,rgba(255,255,255,.05) 0 2px,transparent 2px 22px),
+repeating-linear-gradient(0deg,rgba(255,255,255,.04) 0 2px,transparent 2px 22px),
+linear-gradient(160deg,#16305c,#0b1d3a 70%);animation:reveal 2.2s cubic-bezier(.2,.7,.2,1) both}
+@keyframes reveal{from{transform:scale(1.12);filter:blur(6px);opacity:0}to{transform:none;filter:none;opacity:1}}
+.hero .wrap{position:relative}
+.hero-img.photo{background:linear-gradient(90deg,rgba(11,29,58,.88) 0%,rgba(11,29,58,.55) 55%,rgba(11,29,58,.35) 100%),url("images/hero-truck.jpg") center/cover no-repeat;animation:none}
+.hero h1{font-size:clamp(2.4rem,6vw,4.4rem);max-width:820px;margin-bottom:20px}
+.hero h1 span{color:#d9bb78}
+.hero p{font-size:1.12rem;max-width:580px;opacity:.9;margin-bottom:34px}
+.cta{display:flex;flex-wrap:wrap;gap:14px}
+.scroll-cue{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);width:26px;height:42px;border:1.5px solid rgba(255,255,255,.6);border-radius:14px}
+.scroll-cue::after{content:"";position:absolute;left:50%;top:8px;width:3px;height:8px;margin-left:-1.5px;background:var(--gold);border-radius:2px;animation:cue 1.8s infinite}
+@keyframes cue{0%{opacity:0;transform:translateY(0)}40%{opacity:1}100%{opacity:0;transform:translateY(14px)}}
+/* REVEAL */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+/* ABOUT */
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.panel{aspect-ratio:4/3;border-radius:var(--r);background:repeating-linear-gradient(45deg,#e9e4d6 0 14px,#f3efe5 14px 28px);border:1px solid var(--line);display:flex;align-items:flex-end;padding:16px;font-size:.8rem;color:var(--gray);box-shadow:0 18px 40px rgba(11,29,58,.08)}
+.panel code{background:#fff;padding:3px 8px;border-radius:6px;border:1px solid var(--line)}
+.checks{list-style:none;margin-top:22px;display:grid;gap:10px}
+.checks li{padding-inline-start:28px;position:relative}
+.checks li::before{content:"";position:absolute;inset-inline-start:0;top:.55em;width:12px;height:12px;border-radius:50%;background:var(--gold)}
+/* PRODUCTS */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:26px}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;transition:transform .4s,box-shadow .4s}
+.card:hover{transform:translateY(-6px);box-shadow:0 22px 44px rgba(11,29,58,.12)}
+.ph{height:200px;position:relative;overflow:hidden}
+.ph span{position:absolute;inset-inline-start:12px;bottom:10px;font-size:.72rem;background:rgba(255,255,255,.92);color:var(--navy);padding:3px 9px;border-radius:6px}
+.p1{background:repeating-linear-gradient(0deg,#c8553d 0 6px,#e9d8c5 6px 12px)}
+.p2{background:repeating-linear-gradient(90deg,#5b6b3e 0 4px,#d8d0b4 4px 10px)}
+.p3{background:repeating-linear-gradient(90deg,#7a3e5a 0 10px,#efe6dc 10px 20px)}
+.p4{background:repeating-linear-gradient(45deg,#2d4a3e 0 3px,transparent 3px 12px),#dfe8e3}
+.p5{background:radial-gradient(circle,#fff 40%,transparent 41%) 0 0/18px 18px,#e6dcc7}
+.p6{background:repeating-linear-gradient(90deg,#0b1d3a 0 6px,#b8923e 6px 8px,#f2f2f2 8px 14px)}
+.p7{background:repeating-linear-gradient(0deg,#2a3c55 0 8px,#8fa3b8 8px 16px)}
+.p8{background:linear-gradient(135deg,#f4efe4,#d9d2c0)}
+.ph img{width:100%;height:100%;object-fit:cover;display:block}
+.ph.sm{height:130px;margin-bottom:14px;border-radius:10px}
+.gh{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:10px 18px;margin:56px 0 24px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.gh:first-of-type{margin-top:0}
+.gt{font-family:var(--fh);font-size:1.7rem;color:var(--navy)}
+.glink{color:var(--navy2);font-size:.9rem;font-weight:600;text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:4px}
+.body .glink{display:inline-block;margin-top:4px}
+.fdesc{max-width:760px;margin:0 0 28px}
+.fdesc p{color:var(--gray);margin-bottom:16px}
+.fdesc .btn{background:var(--navy);color:#fff}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.gitem{margin:0;border-radius:var(--r);overflow:hidden;border:1px solid var(--line);background:#fff}
+.gitem img{width:100%;height:220px;object-fit:cover;display:block;transition:transform .5s}
+.gitem:hover img{transform:scale(1.04)}
+.ph.two{display:grid;grid-template-columns:1fr 1fr;gap:3px}
+.ph.quad{height:auto;aspect-ratio:4/3;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:3px}
+.body{padding:22px;display:flex;flex-direction:column;gap:10px;flex:1}
+.body h3{color:var(--navy);font-size:1.22rem}
+.body .ar{font-family:var(--ff);color:var(--gold);font-weight:600;font-size:1rem;margin-top:-6px}
+.body p{color:var(--gray);font-size:.95rem}
+.tags{display:flex;flex-wrap:wrap;gap:6px;font-size:.8rem}
+.tags span{border:1px solid var(--line);border-radius:999px;padding:3px 10px;color:var(--navy2)}
+.note{font-size:.84rem;color:var(--gray);margin-top:28px;border-inline-start:3px solid var(--gold);padding-inline-start:14px}
+.card .btn{margin-top:auto;align-self:flex-start;background:var(--navy);color:#fff;padding:11px 20px;font-size:.9rem}
+/* CUSTOM */
+.dark{background:linear-gradient(160deg,var(--navy),#08162d);color:#fff}
+.dark h2{color:#fff}
+.dark .lead{color:rgba(255,255,255,.78)}
+.dark .eyebrow{color:#d9bb78}
+.spec{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:40px 0}
+.spec div{border:1px solid rgba(255,255,255,.14);border-radius:var(--r);padding:22px;background:rgba(255,255,255,.04);transition:border-color .3s,background .3s}
+.spec div:hover{border-color:var(--gold);background:rgba(255,255,255,.08)}
+.spec b{display:block;color:#d9bb78;margin-bottom:4px}
+.spec span{font-size:.92rem;opacity:.85}
+/* APPLICATIONS */
+.apps{display:grid;gap:22px}
+.app{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+.app:nth-child(even){direction:rtl}
+.app:nth-child(even)>*{direction:ltr}
+.app .ph{height:auto;min-height:240px}
+.app .body{justify-content:center;padding:34px}
+.app h3{color:var(--navy);font-size:1.3rem}
+/* PROCESS */
+.steps{position:relative;display:grid;grid-template-columns:repeat(5,1fr);gap:20px}
+.step{position:relative;text-align:start;padding-top:70px}
+.step::before{content:attr(data-n);position:absolute;top:0;inset-inline-start:0;width:52px;height:52px;border-radius:50%;background:var(--navy);color:#d9bb78;display:grid;place-items:center;font:700 1.1rem var(--fh);box-shadow:0 0 0 6px var(--off)}
+.step h3{color:var(--navy);font-size:1.05rem;margin-bottom:6px}
+.step p{font-size:.92rem;color:var(--gray)}
+/* EXPORT */
+.countries{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin:36px 0}
+.countries div{border:1px solid var(--line);border-radius:var(--r);padding:20px 12px;text-align:center;background:#fff;transition:border-color .3s,transform .3s}
+.countries div:hover{border-color:var(--gold);transform:translateY(-3px)}
+.countries strong{display:block;color:var(--navy)}
+.countries span{font-size:.85rem;color:var(--gray)}
+/* WHY */
+.why{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.why>div{padding:28px;border-radius:var(--r);background:#fff;border:1px solid var(--line);transition:box-shadow .3s}
+.why>div:hover{box-shadow:0 14px 30px rgba(11,29,58,.09)}
+.why h3{color:var(--navy);font-size:1.08rem;margin-bottom:6px}
+.why p{color:var(--gray);font-size:.94rem}
+.gold-rule{width:56px;height:2px;background:var(--gold);margin:0 0 14px}
+/* FORM */
+.form{background:#fff;border:1px solid var(--line);border-radius:18px;padding:40px;box-shadow:0 24px 50px rgba(11,29,58,.07)}
+.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.fgrid .full{grid-column:1/-1}
+label{display:block;font-size:.9rem;font-weight:600;color:var(--navy);margin-bottom:6px}
+input,select,textarea{width:100%;font:400 1rem var(--ff);padding:12px 14px;border:1px solid #cfc9bb;border-radius:10px;background:#fff;color:var(--ink);transition:border-color .2s,box-shadow .2s}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(184,146,62,.2)}
+input[aria-invalid=true],select[aria-invalid=true],textarea[aria-invalid=true]{border-color:#b3261e}
+textarea{min-height:110px;resize:vertical}
+.err{color:#b3261e;font-size:.84rem;min-height:1.2em;margin-top:4px}
+.status{margin-top:18px;padding:14px 16px;border-radius:10px;font-size:.94rem;display:none}
+.status.show{display:block}
+.status.error{background:#fbeceb;color:#8a1c16}
+.status.info{background:#eef3fb;color:var(--navy)}
+.form .btn{margin-top:20px}
+.btn[disabled]{opacity:.6;cursor:wait;transform:none}
+.spin{display:none;width:16px;height:16px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:sp .8s linear infinite}
+.loading .spin{display:inline-block}
+@keyframes sp{to{transform:rotate(360deg)}}
+.hint{font-size:.84rem;color:var(--gray);margin-top:14px}
+/* FOOTER */
+footer{background:#071429;color:rgba(255,255,255,.8);padding:64px 0 28px;font-size:.93rem}
+.fcols{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+footer h4{color:#fff;margin-bottom:12px;font-size:1rem}
+footer a{color:#d9bb78}
+footer ul{list-style:none;display:grid;gap:8px}
+.social{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+.social a{border:1px solid rgba(255,255,255,.2);padding:6px 14px;border-radius:999px;text-decoration:none}
+.legal{border-top:1px solid rgba(255,255,255,.12);margin-top:44px;padding-top:22px;font-size:.84rem;opacity:.7}
+.mobile-bar{display:none}
+/* RESPONSIVE */
+@media (max-width:980px){
+.nav-links{position:fixed;inset:74px 0 auto 0;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:8px 22px 20px;box-shadow:0 14px 30px rgba(0,0,0,.1);transform:translateY(-120%);transition:transform .4s;visibility:hidden}
+.nav-links.open{transform:none;visibility:visible}
+.nav-links a{color:var(--navy);padding:14px 0;border-bottom:1px solid var(--line);display:block}
+.burger{display:block}
+.grid2,.app{grid-template-columns:1fr}
+.app:nth-child(even){direction:ltr}
+.steps{grid-template-columns:1fr 1fr}
+.countries{grid-template-columns:repeat(2,1fr)}
+.why{grid-template-columns:1fr 1fr}
+}
+@media (max-width:640px){
+section{padding:70px 0}
+.why,.steps,.fgrid,.fcols{grid-template-columns:1fr}
+.form{padding:24px}
+.hero{padding-top:110px}
+.mobile-bar{display:flex;position:fixed;bottom:0;inset-inline:0;z-index:40;gap:0;background:var(--navy);padding-bottom:env(safe-area-inset-bottom,0px)}
+.mobile-bar a{flex:1;text-align:center;color:#fff;text-decoration:none;padding:15px 0;font-weight:600;font-size:.92rem}
+.mobile-bar a+a{border-inline-start:1px solid rgba(255,255,255,.2)}
+body{padding-bottom:56px}
+}
+@media (prefers-reduced-motion:reduce){
+*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+.rv{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<header id="top">
+  <nav class="wrap nav" aria-label="Main">
+    <a class="brand" href="#top"><img class="logo" src="images/logo.jpg" alt="شعار وادي الملوك" width="46" height="46"><span data-en="Wadi El Molouk for Spinning & Weaving" data-ar="شركة وادي الملوك للغزل والنسيج">Wadi El Molouk for Spinning &amp; Weaving</span><small data-en="Samanoud, Egypt · Est. 1999" data-ar="سمنود، مصر · تأسست عام 1999">Samanoud, Egypt · Est. 1999</small></a>
+    <ul class="nav-links" id="menu">
+      <li><a href="#about" data-en="About" data-ar="من نحن">About</a></li>
+      <li><a href="#products" data-en="Products" data-ar="المنتجات">Products</a></li>
+      <li><a href="#custom" data-en="Custom Manufacturing" data-ar="التصنيع حسب الطلب">Custom Manufacturing</a></li>
+      <li><a href="#process" data-en="Process" data-ar="مراحل الإنتاج">Process</a></li>
+      <li><a href="#export" data-en="Export" data-ar="التصدير">Export</a></li>
+      <li><a href="#contact" data-en="Contact" data-ar="تواصل معنا">Contact</a></li>
+    </ul>
+    <div style="display:flex;gap:10px;align-items:center">
+      <button class="lang" id="langBtn" type="button" aria-label="Switch language">العربية</button>
+      <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Menu">☰</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="home" style="padding:0">
+  <div class="hero-img photo" aria-hidden="true"></div>
+  <div class="wrap">
+    <span class="eyebrow" style="color:#d9bb78" data-en="Egyptian Textile Manufacturer" data-ar="مصنع أقمشة مصري">Egyptian Textile Manufacturer</span>
+    <h1 data-en="Engineering Fabrics. <span>Powering Possibilities.</span>" data-ar="نصنع الأقمشة. <span>ونفتح آفاقًا جديدة.</span">Engineering Fabrics. <span>Powering Possibilities.</span></h1>
+    <p data-en="Egyptian textile manufacturing expertise, from yarn to woven fabrics, tailored to your specifications." data-ar="خبرة مصرية في صناعة الغزل والأقمشة المنسوجة، بمواصفات تناسب احتياجات أعمالكم.">Egyptian textile manufacturing expertise, from yarn to woven fabrics, tailored to your specifications.</p>
+    <div class="cta">
+      <a class="btn btn-gold" href="#quote" data-en="Request a Quote" data-ar="اطلب عرض سعر">Request a Quote</a>
+      <a class="btn btn-line" href="#products" data-en="Explore Our Products" data-ar="استكشف منتجاتنا">Explore Our Products</a>
+    </div>
+  </div>
+  <div class="scroll-cue" aria-hidden="true"></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about"><div class="wrap"><div class="rv" style="max-width:760px">
+      <span class="eyebrow" data-en="About the Company" data-ar="عن الشركة">About the Company</span>
+      <h2 data-en="Textile manufacturing rooted in Samanoud since 1999" data-ar="صناعة نسيج متجذرة في سمنود منذ 1999">Textile manufacturing rooted in Samanoud since 1999</h2>
+      <p class="lead" data-en="Wadi El Molouk for Spinning & Weaving is an Egyptian manufacturer of spun yarn, woven and technical fabrics. We work directly with business customers, from wholesalers and distributors to contractors and importers, and adapt production to agreed specifications." data-ar="شركة وادي الملوك للغزل والنسيج مصنّع مصري للغزل والأقمشة المنسوجة والأقمشة الفنية. نعمل مباشرة مع العملاء من الشركات، من تجار الجملة والموزعين إلى المقاولين والمستوردين، ونكيّف الإنتاج وفق المواصفات المتفق عليها.">Wadi El Molouk for Spinning &amp; Weaving is an Egyptian manufacturer of spun yarn, woven and technical fabrics. We work directly with business customers, from wholesalers and distributors to contractors and importers, and adapt production to agreed specifications.</p>
+      <ul class="checks">
+        <li data-en="Company overview and Egyptian manufacturing origin" data-ar="نظرة عامة على الشركة وأصلها الصناعي المصري">Company overview and Egyptian manufacturing origin</li>
+        <li data-en="Spinning, weaving and technical fabric production" data-ar="الغزل والنسيج وإنتاج الأقمشة الفنية">Spinning, weaving and technical fabric production</li>
+        <li data-en="Custom specifications for width, weight and construction" data-ar="مواصفات مخصصة للعرض والوزن والتركيب">Custom specifications for width, weight and construction</li>
+        <li data-en="Business-to-business supply" data-ar="توريد موجّه لقطاع الأعمال">Business-to-business supply</li>
+      </ul>
+    </div>
+    </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products" class="alt">
+ <div class="wrap">
+  <div class="head rv"><span class="eyebrow" data-en="Products" data-ar="المنتجات">Products</span><h2 data-en="Fabrics, yarn and cotton" data-ar="الأقمشة والغزل والقطن">Fabrics, yarn and cotton</h2><p class="lead" data-en="Availability of treatments and specifications depends on the product and the manufacturing requirements agreed with you." data-ar="يعتمد توفر المعالجات والمواصفات على المنتج ومتطلبات التصنيع المتفق عليها معكم.">Availability of treatments and specifications depends on the product and the manufacturing requirements agreed with you.</p></div>
+<div class="gh rv"><h3 class="gt" data-en="Fabrics" data-ar="الأقمشة">Fabrics</h3><a class="glink" href="https://maps.app.goo.gl/5BcQ7bQ6dJXfE1Sd8" target="_blank" rel="noopener" data-en="Textile factory on Google Maps" data-ar="مصنع النسيج على خرائط جوجل">Textile factory on Google Maps</a></div><div class="fdesc rv"><p data-en="Available fabrics: tent fabric, Bayt Al Shaar fabric, outdoor curtain fabric, carpet backing, desert camp fabric, car covers, awnings, pergolas, wedding and occasion marquees, coated fabric for bags and umbrellas, and water-resistant treated fabric. Widths from 1 m to 2.5 m. All weights and thicknesses from 18 to 32." data-ar="الأقمشة المتاحة: أقمشة الخيام، وبيت الشعر، والستائر الخارجية، وضهر السجاد، ومخيمات الصحراء، وأغطية السيارات، والتندات، والبرجولات، وصيوانات الأفراح والمناسبات، والأقمشة المشمعة لصناعة الشنط والشماسي، والأقمشة المعالجة ضد الماء. عروض من 1 متر إلى 2.5 متر. جميع الأوزان والسماكات من 18 إلى 32.">Available fabrics: tent fabric, Bayt Al Shaar fabric, outdoor curtain fabric, carpet backing, desert camp fabric, car covers, awnings, pergolas, wedding and occasion marquees, coated fabric for bags and umbrellas, and water-resistant treated fabric. Widths from 1 m to 2.5 m. All weights and thicknesses from 18 to 32.</p><a class="btn" href="#quote" data-cat="0" data-en="Request Specifications" data-ar="اطلب المواصفات">Request Specifications</a></div><div class="gallery"><figure class="gitem"><img src="images/tent-fabric-rolls.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure><figure class="gitem"><img src="images/bayt-al-shaar-packed-black.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure><figure class="gitem"><img src="images/bayt-al-shaar-black.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure><figure class="gitem"><img src="images/bayt-al-shaar-white.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure><figure class="gitem"><img src="images/plain-white.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure><figure class="gitem"><img src="images/loom-white-fabric.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure><figure class="gitem"><img src="images/outdoor-curtain-fabric.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure><figure class="gitem"><img src="images/treated-fabric-rolls.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure><figure class="gitem"><img src="images/bag-fabric-treated.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure><figure class="gitem"><img src="images/sudanese-striped-fabric.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure><figure class="gitem"><img src="images/carpet-backing-grey.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure><figure class="gitem"><img src="images/duck-fabric-raw.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure><figure class="gitem"><img src="images/fab-new-01.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure><figure class="gitem"><img src="images/fab-new-02.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure><figure class="gitem"><img src="images/fab-new-03.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure><figure class="gitem"><img src="images/fab-new-04.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure><figure class="gitem"><img src="images/fab-new-05.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure><figure class="gitem"><img src="images/fab-new-06.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure><figure class="gitem"><img src="images/fab-new-07.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure><figure class="gitem"><img src="images/fab-new-08.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure><figure class="gitem"><img src="images/fab-new-09.jpg" alt="Fabric produced by the factory" loading="lazy" decoding="async"></figure></div><div class="gh rv"><h3 class="gt" data-en="Yarn" data-ar="الغزل">Yarn</h3><a class="glink" href="https://maps.app.goo.gl/ZrJEEfwa4GeDtrEY9" target="_blank" rel="noopener" data-en="Spinning factory on Google Maps" data-ar="مصنع الغزل على خرائط جوجل">Spinning factory on Google Maps</a></div><div class="cards"><article class="card rv"><div class="ph quad"><img src="images/yarn-open-end-1.jpg" alt="Open-end spinning machine with white yarn packages" loading="lazy" decoding="async"><img src="images/yarn-open-end-2.jpg" alt="Open-end spinning rotors with white yarn cans" loading="lazy" decoding="async"><img src="images/yarn-bales-truck.jpg" alt="Packed yarn bales loaded on a truck at the factory" loading="lazy" decoding="async"><img src="images/yarn-open-end-3.jpg" alt="Open-end yarn spinning line with white yarn cans" loading="lazy" decoding="async"></div><div class="body"><h3>Raw Mixed Open-End Yarn</h3><div class="ar">غزل خام مخلوط أوبن إند</div><p data-en="Raw mixed open-end yarn in counts 3, 6, 10 and 12, for weaving and textile manufacturers." data-ar="غزل خام مخلوط أوبن إند بنمر 3 و6 و10 و12 للمنسوجات ولمصنّعي الأقمشة.">Raw mixed open-end yarn in counts 3, 6, 10 and 12, for weaving and textile manufacturers.</p><a class="glink" href="https://maps.app.goo.gl/ZrJEEfwa4GeDtrEY9" target="_blank" rel="noopener" data-en="Spinning factory on Google Maps" data-ar="مصنع الغزل على خرائط جوجل">Spinning factory on Google Maps</a><a class="btn" href="#quote" data-cat="1" data-en="Request Specifications" data-ar="اطلب المواصفات">Request Specifications</a></div></article></div><div class="gh rv"><h3 class="gt" data-en="Cotton" data-ar="القطن">Cotton</h3><a class="glink" href="https://maps.app.goo.gl/UVZYdBeTpSXsHNm67" target="_blank" rel="noopener" data-en="Cotton factory on Google Maps" data-ar="مصنع القطن على خرائط جوجل">Cotton factory on Google Maps</a></div><div class="cards"><article class="card rv"><div class="ph two"><img src="images/cotton.jpg" alt="Raw cotton fibre prepared for spinning" loading="lazy" decoding="async"><img src="images/cotton-factory-machines.jpg" alt="Cotton processing machines inside the cotton factory" loading="lazy" decoding="async"></div><div class="body"><h3>Raw Cotton</h3><div class="ar">القطن الخام</div><p data-en="Raw cotton and fibre prepared for spinning, processed at our cotton factory." data-ar="قطن وألياف خام مجهزة للغزل، تُعالج في مصنع القطن الخاص بنا.">Raw cotton and fibre prepared for spinning, processed at our cotton factory.</p><a class="glink" href="https://maps.app.goo.gl/UVZYdBeTpSXsHNm67" target="_blank" rel="noopener" data-en="Cotton factory on Google Maps" data-ar="مصنع القطن على خرائط جوجل">Cotton factory on Google Maps</a><a class="btn" href="#quote" data-cat="2" data-en="Request Specifications" data-ar="اطلب المواصفات">Request Specifications</a></div></article></div>
+  <p class="note" data-en="* Water-resistance and mould-resistance treatments are capabilities to be confirmed for the specific product and requested specification." data-ar="* معالجات مقاومة الماء والعفن هي قدرات تُؤكَّد حسب المنتج والمواصفة المطلوبة.">* Water-resistance and mould-resistance treatments are capabilities to be confirmed for the specific product and requested specification.</p>
+ </div>
+</section>
+
+<!-- CUSTOM MANUFACTURING -->
+<section id="custom" class="dark">
+  <div class="wrap">
+    <div class="head rv" style="margin-bottom:0">
+      <span class="eyebrow" data-en="Custom Manufacturing" data-ar="التصنيع حسب الطلب">Custom Manufacturing</span>
+      <h2 data-en="Built to your specification" data-ar="مصنوع وفق مواصفاتكم">Built to your specification</h2>
+      <p class="lead" data-en="Business customers can inquire about the following, subject to confirmation for each product." data-ar="يمكن لعملاء الأعمال الاستفسار عن المواصفات التالية، مع تأكيد التوفر لكل منتج.">Business customers can inquire about the following, subject to confirmation for each product.</p>
+    </div>
+    <div class="spec rv">
+      <div><b data-en="Fabric width" data-ar="عرض القماش">Fabric width</b><span data-en="All widths are available." data-ar="جميع العروض متاحة.">All widths are available.</span></div>
+      <div><b data-en="Fabric weight" data-ar="وزن القماش">Fabric weight</b><span data-en="All weights are available." data-ar="جميع الأوزان متاحة.">All weights are available.</span></div>
+      <div><b data-en="Thickness & construction" data-ar="السُمك والتركيب">Thickness &amp; construction</b><span data-en="Weave structure and density." data-ar="بنية النسيج وكثافته.">Weave structure and density.</span></div>
+      <div><b data-en="Yarn specifications" data-ar="مواصفات الغزل">Yarn specifications</b><span data-en="Count and yarn type by agreement." data-ar="النمرة ونوع الغزل بالاتفاق.">Count and yarn type by agreement.</span></div>
+      <div><b data-en="Colours & patterns" data-ar="الألوان والنقوش">Colours &amp; patterns</b><span data-en="Subject to production feasibility." data-ar="رهناً بإمكانية الإنتاج.">Subject to production feasibility.</span></div>
+      <div><b data-en="Finishing & treatments" data-ar="التشطيب والمعالجات">Finishing &amp; treatments</b><span data-en="Water and mould resistance, to be confirmed." data-ar="مقاومة الماء والعفن، تُؤكَّد لاحقاً.">Water and mould resistance, to be confirmed.</span></div>
+    </div>
+    <div class="rv"><a class="btn btn-gold" href="#quote" data-en="Discuss Your Manufacturing Requirements" data-ar="ناقش متطلبات التصنيع الخاصة بك">Discuss Your Manufacturing Requirements</a></div>
+  </div>
+</section>
+
+<!-- SOLUTIONS -->
+<section id="solutions">
+ <div class="wrap">
+  <div class="head rv"><span class="eyebrow" data-en="Suggestions &amp; Solutions" data-ar="اقتراحات وحلول">Suggestions &amp; Solutions</span><h2 data-en="Fabrics for your application" data-ar="أقمشة لاحتياجك">Fabrics for your application</h2><p class="lead" data-en="Tell us the application and we suggest the fabric, width and weight. Final specifications are confirmed with you before production." data-ar="أخبرنا بالاستخدام ونقترح لك القماش والعرض والوزن. المواصفات النهائية تُؤكَّد معكم قبل الإنتاج.">Tell us the application and we suggest the fabric, width and weight. Final specifications are confirmed with you before production.</p></div>
+  <div class="why">
+   <div class="rv"><div class="gold-rule"></div><h3 data-en="Tents" data-ar="الخيام">Tents</h3><p data-en="Bayt Al Shaar and tent fabrics for tents and desert shelters, in widths and weights on request." data-ar="أقمشة بيت الشعر والخيام للخيام والمأوى الصحراوي، بعروض وأوزان حسب الطلب.">Bayt Al Shaar and tent fabrics for tents and desert shelters, in widths and weights on request.</p></div>
+   <div class="rv"><div class="gold-rule"></div><h3 data-en="Covers" data-ar="التغطية">Covers</h3><p data-en="Heavy treated fabric for covers and outdoor protection. Water resistance is confirmed per specification." data-ar="قماش ثقيل معالج للتغطية والحماية الخارجية. مقاومة الماء تُؤكَّد حسب المواصفة.">Heavy treated fabric for covers and outdoor protection. Water resistance is confirmed per specification.</p></div>
+   <div class="rv"><div class="gold-rule"></div><h3 data-en="Bag making" data-ar="صناعة الشنط">Bag making</h3><p data-en="Treated fabric for bag manufacturing, for example 160 cm wide and 600 g/m²." data-ar="قماش معالج لصناعة الشنط، مثلاً عرض 160 سم ووزن 600 جرام للمتر.">Treated fabric for bag manufacturing, for example 160 cm wide and 600 g/m².</p></div>
+   <div class="rv"><div class="gold-rule"></div><h3 data-en="Carpet fabrics" data-ar="أقمشة السجاد">Carpet fabrics</h3><p data-en="Carpet backing and industrial fabrics used in carpet manufacturing, subject to specification." data-ar="أقمشة ضهر السجاد والأقمشة الصناعية المستخدمة في صناعة السجاد، حسب المواصفات.">Carpet backing and industrial fabrics used in carpet manufacturing, subject to specification.</p></div>
+  </div>
+ </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" class="alt">
+  <div class="wrap">
+    <div class="head rv">
+      <span class="eyebrow" data-en="Manufacturing Process" data-ar="مراحل التصنيع">Manufacturing Process</span>
+      <h2 data-en="From fibre to finished order" data-ar="من الخامة إلى الطلب المكتمل">From fibre to finished order</h2>
+      <p class="lead" data-en="Only the steps applicable to your order are used. Not every process is necessarily performed in-house." data-ar="تُستخدم فقط المراحل المناسبة لطلبكم، ولا تُنفَّذ كل مرحلة داخلياً بالضرورة.">Only the steps applicable to your order are used. Not every process is necessarily performed in-house.</p>
+    </div>
+    <div class="steps">
+      <div class="step rv" data-n="1"><div class="ph sm"><img src="images/cotton.jpg" alt="Raw cotton fibre prepared for spinning" loading="lazy" decoding="async"></div><h3 data-en="Raw Cotton and Fibre Preparation" data-ar="تجهيز القطن والألياف">Raw Cotton and Fibre Preparation</h3><p data-en="Fibre selection and preparation for spinning." data-ar="اختيار الألياف وتجهيزها للغزل.">Fibre selection and preparation for spinning.</p></div>
+      <div class="step rv" data-n="2"><div class="ph sm"><img src="images/yarn.jpg" alt="Spun cotton yarn production" loading="lazy" decoding="async"></div><h3 data-en="Spinning and Yarn" data-ar="الغزل وإنتاج الخيوط">Spinning and Yarn</h3><p data-en="Yarn production to the agreed count and specification." data-ar="إنتاج الغزل وفق النمرة والمواصفة المتفق عليها.">Yarn production to the agreed count and specification.</p></div>
+      <div class="step rv" data-n="3"><div class="ph sm"><img src="images/loom-white-fabric.jpg" alt="Fabric on a weaving loom" loading="lazy" decoding="async"></div><h3 data-en="Weaving" data-ar="النسيج">Weaving</h3><p data-en="Fabric construction on looms to your width and weave." data-ar="تكوين القماش على الأنوال وفق العرض والتركيب المطلوب.">Fabric construction on looms to your width and weave.</p></div>
+      <div class="step rv" data-n="4"><h3 data-en="Finishing and Treatment" data-ar="التشطيب والمعالجة">Finishing and Treatment</h3><p data-en="Applied where specified and confirmed for the product." data-ar="تُطبَّق حيثما تُحدَّد وتُؤكَّد للمنتج.">Applied where specified and confirmed for the product.</p></div>
+      <div class="step rv" data-n="5"><h3 data-en="Inspection and Order Preparation" data-ar="الفحص وتجهيز الطلب">Inspection and Order Preparation</h3><p data-en="Checks against your specification before dispatch." data-ar="مراجعة الإنتاج على مواصفاتكم قبل الشحن.">Checks against your specification before dispatch.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPORT -->
+<section id="export">
+  <div class="wrap">
+    <div class="rv">
+      <span class="eyebrow" data-en="Export and International Business" data-ar="التصدير والأعمال الدولية">Export and International Business</span>
+      <h2 data-en="Direct supply for regional buyers" data-ar="توريد مباشر للمشترين في المنطقة">Direct supply for regional buyers</h2>
+      <p class="lead" data-en="We welcome inquiries from buyers in our target markets for specification discussions, customised supply and quotation requests." data-ar="نرحب باستفسارات المشترين في أسواقنا المستهدفة لمناقشة المواصفات والتوريد المخصص وطلبات عروض الأسعار.">We welcome inquiries from buyers in our target markets for specification discussions, customised supply and quotation requests.</p>
+    </div>
+    <div class="countries rv">
+      <div><strong data-en="Saudi Arabia" data-ar="السعودية">Saudi Arabia</strong><span data-en="Inquiries" data-ar="استفسارات">Inquiries</span></div>
+      <div><strong data-en="UAE" data-ar="الإمارات">UAE</strong><span data-en="Inquiries" data-ar="استفسارات">Inquiries</span></div>
+      <div><strong data-en="Jordan" data-ar="الأردن">Jordan</strong><span data-en="Inquiries" data-ar="استفسارات">Inquiries</span></div>
+      <div><strong data-en="Libya" data-ar="ليبيا">Libya</strong><span data-en="Inquiries" data-ar="استفسارات">Inquiries</span></div>
+      <div><strong data-en="Sudan" data-ar="السودان">Sudan</strong><span data-en="Inquiries" data-ar="استفسارات">Inquiries</span></div>
+    </div>
+    <div class="rv"><a class="btn btn-navy" href="#quote" data-en="Start an Export Inquiry" data-ar="ابدأ استفسار تصدير">Start an Export Inquiry</a></div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why" class="alt">
+  <div class="wrap">
+    <div class="head rv">
+      <span class="eyebrow" data-en="Why Work With Us" data-ar="لماذا تتعامل معنا">Why Work With Us</span>
+      <h2 data-en="A manufacturer you can talk to directly" data-ar="مصنّع يمكنك التحدث معه مباشرة">A manufacturer you can talk to directly</h2>
+    </div>
+    <div class="why">
+      <div class="rv"><div class="gold-rule"></div><h3 data-en="Established in 1999" data-ar="تأسست عام 1999">Established in 1999</h3><p data-en="Over two decades of textile manufacturing experience in Egypt." data-ar="أكثر من عقدين من الخبرة في صناعة النسيج في مصر.">Over two decades of textile manufacturing experience in Egypt.</p></div>
+      <div class="rv"><div class="gold-rule"></div><h3 data-en="Egyptian Manufacturing" data-ar="تصنيع مصري">Egyptian Manufacturing</h3><p data-en="Produced in Samanoud, Gharbia Governorate." data-ar="يُنتَج في سمنود بمحافظة الغربية.">Produced in Samanoud, Gharbia Governorate.</p></div>
+      <div class="rv"><div class="gold-rule"></div><h3 data-en="Multiple Fabric Categories" data-ar="فئات متعددة من الأقمشة">Multiple Fabric Categories</h3><p data-en="Yarn, woven, tent and curtain fabrics from one supplier." data-ar="غزل وأقمشة منسوجة وخيام وستائر من مورد واحد.">Yarn, woven, tent and curtain fabrics from one supplier.</p></div>
+      <div class="rv"><div class="gold-rule"></div><h3 data-en="Custom Specification Inquiries" data-ar="استفسارات المواصفات المخصصة">Custom Specification Inquiries</h3><p data-en="Discuss width, weight, construction and colour before ordering." data-ar="ناقش العرض والوزن والتركيب واللون قبل الطلب.">Discuss width, weight, construction and colour before ordering.</p></div>
+      <div class="rv"><div class="gold-rule"></div><h3 data-en="Direct Communication" data-ar="تواصل مباشر">Direct Communication</h3><p data-en="Speak with the manufacturer, not an intermediary." data-ar="تحدث مع المصنّع مباشرةً دون وسيط.">Speak with the manufacturer, not an intermediary.</p></div>
+      <div class="rv"><div class="gold-rule"></div><h3 data-en="B2B Focus" data-ar="تركيز على قطاع الأعمال">B2B Focus</h3><p data-en="Built for wholesalers, distributors, importers and contractors." data-ar="مصمم لتجار الجملة والموزعين والمستوردين والمقاولين.">Built for wholesalers, distributors, importers and contractors.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE FORM -->
+<section id="quote">
+  <div class="wrap grid2" style="align-items:start">
+    <div class="rv">
+      <span class="eyebrow" data-en="Quote Request" data-ar="طلب عرض سعر">Quote Request</span>
+      <h2 data-en="Request a quote or specification" data-ar="اطلب عرض سعر أو مواصفات">Request a quote or specification</h2>
+      <p class="lead" data-en="Share your requirements. Your message opens in WhatsApp with the details prefilled, so you can review it before sending." data-ar="شارك متطلباتك. تُفتح رسالتك في واتساب بالتفاصيل جاهزة لتراجعها قبل الإرسال.">Share your requirements. Your message opens in WhatsApp with the details prefilled, so you can review it before sending.</p>
+      <p class="hint" data-en="Fields marked * are required." data-ar="الحقول المعلَّمة بـ * إلزامية.">Fields marked * are required.</p>
+    </div>
+    <form class="form rv" id="inqForm" novalidate>
+      <div class="fgrid">
+        <div><label for="f-name" data-en="Full name *" data-ar="الاسم الكامل *">Full name *</label><input id="f-name" name="name" autocomplete="name" required><div class="err" id="e-name"></div></div>
+        <div><label for="f-company" data-en="Company name *" data-ar="اسم الشركة *">Company name *</label><input id="f-company" name="company" autocomplete="organization" required><div class="err" id="e-company"></div></div>
+        <div><label for="f-country" data-en="Country *" data-ar="الدولة *">Country *</label><input id="f-country" name="country" autocomplete="country-name" required><div class="err" id="e-country"></div></div>
+        <div><label for="f-email" data-en="Email address *" data-ar="البريد الإلكتروني *">Email address *</label><input id="f-email" name="email" type="email" autocomplete="email" required><div class="err" id="e-email"></div></div>
+        <div><label for="f-phone" data-en="WhatsApp or phone *" data-ar="واتساب أو هاتف *">WhatsApp or phone *</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" required><div class="err" id="e-phone"></div></div>
+        <div><label for="f-cat" data-en="Product category *" data-ar="فئة المنتج *">Product category *</label>
+          <select id="f-cat" name="category" required>
+            <option value="" data-en="Select a category" data-ar="اختر الفئة">Select a category</option>
+            <option data-en="Fabrics (tent, Bayt Al Shaar, bags, curtains, carpet backing)" data-ar="الأقمشة (خيام، بيت شعر، شنط، ستائر، ضهر سجاد)">Fabrics (tent, Bayt Al Shaar, bags, curtains, carpet backing)</option>
+            <option data-en="Raw mixed open-end yarn" data-ar="غزل خام مخلوط أوبن إند">Raw mixed open-end yarn</option>
+            <option data-en="Raw cotton" data-ar="القطن الخام">Raw cotton</option>
+          </select><div class="err" id="e-cat"></div></div>
+        <div><label for="f-qty" data-en="Estimated quantity *" data-ar="الكمية التقديرية *">Estimated quantity *</label><input id="f-qty" name="qty" required><div class="err" id="e-qty"></div></div>
+        <div><label for="f-width" data-en="Required width *" data-ar="العرض المطلوب *">Required width *</label><input id="f-width" name="width" required><div class="err" id="e-width"></div></div>
+        <div><label for="f-weight" data-en="Required weight *" data-ar="الوزن المطلوب *">Required weight *</label><input id="f-weight" name="weight" required><div class="err" id="e-weight"></div></div>
+        <div class="full"><label for="f-dest" data-en="Delivery destination *" data-ar="وجهة التسليم *">Delivery destination *</label><input id="f-dest" name="dest" required><div class="err" id="e-dest"></div></div>
+        <div class="full"><label for="f-tech" data-en="Additional technical requirements" data-ar="متطلبات فنية إضافية">Additional technical requirements</label><textarea id="f-tech" name="tech"></textarea></div>
+      </div>
+      <button class="btn btn-navy" type="submit" id="submitBtn"><span class="spin" aria-hidden="true"></span><span data-en="Send Inquiry via WhatsApp" data-ar="أرسل الاستفسار عبر واتساب">Send Inquiry via WhatsApp</span></button>
+      <div class="status" id="status" role="status" aria-live="polite"></div>
+    </form>
+  </div>
+</section>
+
+<!-- PRIVACY -->
+<section id="privacy" class="alt" style="padding:56px 0">
+  <div class="wrap">
+    <h2 style="font-size:1.5rem" data-en="Privacy Policy" data-ar="سياسة الخصوصية">Privacy Policy</h2>
+    <p class="lead" data-en="Inquiry details are used only to respond to your request. The full policy will be published here before launch." data-ar="تُستخدم بيانات الاستفسار فقط للرد على طلبك. ستُنشر السياسة الكاملة هنا قبل الإطلاق.">Inquiry details are used only to respond to your request. The full policy will be published here before launch.</p>
+  </div>
+</section>
+</main>
+
+<!-- FOOTER / CONTACT -->
+<footer id="contact">
+  <div class="wrap">
+    <div class="fcols">
+      <div>
+        <h4 data-en="Wadi El Molouk for Spinning & Weaving" data-ar="شركة وادي الملوك للغزل والنسيج">Wadi El Molouk for Spinning &amp; Weaving</h4>
+        <p data-en="Established in 1999. Ahmed Mohamed El-Naggar & Partners." data-ar="تأسست عام 1999. أحمد محمد النجار وشركاؤه.">Established in 1999. Ahmed Mohamed El-Naggar &amp; Partners.</p>
+        <p data-en="Samanoud, Gharbia Governorate, Egypt" data-ar="سمنود، محافظة الغربية، مصر">Samanoud, Gharbia Governorate, Egypt</p>
+        <div class="social" aria-label="Social media">
+          <a href="https://www.facebook.com/share/19bH7bBW75/" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://www.instagram.com/wady_elmelok" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+      <div>
+        <h4 data-en="Contact" data-ar="تواصل">Contact</h4>
+        <ul>
+          <li><span data-en="WhatsApp:" data-ar="واتساب:">WhatsApp:</span> <a href="https://wa.me/201555858058" dir="ltr">+20 155 585 8058</a></li>
+          <li><span data-en="Email:" data-ar="البريد:">Email:</span> <a href="mailto:elmelokwady@gmail.com" dir="ltr">elmelokwady@gmail.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-en="Location" data-ar="الموقع">Location</h4>
+        <ul>
+          <li><a href="https://maps.app.goo.gl/5BcQ7bQ6dJXfE1Sd8" target="_blank" rel="noopener" data-en="Textile factory" data-ar="مصنع النسيج">Textile factory</a></li><li><a href="https://maps.app.goo.gl/ZrJEEfwa4GeDtrEY9" target="_blank" rel="noopener" data-en="Spinning factory" data-ar="مصنع الغزل">Spinning factory</a></li><li><a href="https://maps.app.goo.gl/UVZYdBeTpSXsHNm67" target="_blank" rel="noopener" data-en="Cotton factory" data-ar="مصنع القطن">Cotton factory</a></li>
+          <li><a href="#privacy" data-en="Privacy policy" data-ar="سياسة الخصوصية">Privacy policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">© <span id="yr">2026</span> <span data-en="Wadi El Molouk for Spinning & Weaving. All rights reserved." data-ar="شركة وادي الملوك للغزل والنسيج. جميع الحقوق محفوظة.">Wadi El Molouk for Spinning &amp; Weaving. All rights reserved.</span></div>
+  </div>
+</footer>
+
+<nav class="mobile-bar" aria-label="Quick contact">
+  <a href="#quote" data-en="Request Quote" data-ar="اطلب عرض سعر">Request Quote</a>
+  <a href="#contact" data-en="Contact" data-ar="تواصل">Contact</a>
+</nav>
+
+<script>
+(function(){
+  // CONFIGURE: international WhatsApp number, digits only, e.g. 20XXXXXXXXXX. Leave empty until supplied.
+  var WA_NUMBER = '201555858058';
+  var header = document.querySelector('header');
+  var menu = document.getElementById('menu');
+  var burger = document.getElementById('burger');
+  var langBtn = document.getElementById('langBtn');
+  var lang = 'en';
+  try { lang = localStorage.getItem('wm-lang') || 'en'; } catch(e){}
+
+  function setLang(l){
+    lang = l;
+    var html = document.documentElement;
+    html.lang = l; html.dir = l === 'ar' ? 'rtl' : 'ltr';
+    document.querySelectorAll('[data-en]').forEach(function(el){
+      var v = el.getAttribute('data-' + l);
+      if (v !== null) el.innerHTML = v;
+    });
+    langBtn.textContent = l === 'ar' ? 'English' : 'العربية';
+    document.title = l === 'ar' ? 'وادي الملوك للغزل والنسيج | Wadi El Molouk' : 'Wadi El Molouk for Spinning & Weaving | وادي الملوك للغزل والنسيج';
+    try { localStorage.setItem('wm-lang', l); } catch(e){}
+  }
+  langBtn.addEventListener('click', function(){ setLang(lang === 'en' ? 'ar' : 'en'); });
+  setLang(lang);
+
+  burger.addEventListener('click', function(){
+    var open = menu.classList.toggle('open');
+    burger.setAttribute('aria-expanded', open);
+  });
+  menu.addEventListener('click', function(e){
+    if (e.target.tagName === 'A'){ menu.classList.remove('open'); burger.setAttribute('aria-expanded','false'); }
+  });
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape'){ menu.classList.remove('open'); burger.setAttribute('aria-expanded','false'); }
+  });
+
+  function onScroll(){ header.classList.toggle('solid', window.scrollY > 40); }
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if ('IntersectionObserver' in window && !reduce){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if (en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } });
+    }, {threshold:.12});
+    document.querySelectorAll('.rv').forEach(function(el){ io.observe(el); });
+  } else {
+    document.querySelectorAll('.rv').forEach(function(el){ el.classList.add('in'); });
+  }
+
+  // Product "Request Specifications" buttons preselect the category
+  document.querySelectorAll('[data-cat]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      document.getElementById('f-cat').selectedIndex = Number(btn.getAttribute('data-cat')) + 1;
+    });
+  });
+
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // Form validation and WhatsApp fallback (no backend; no fake success)
+  var form = document.getElementById('inqForm');
+  var status = document.getElementById('status');
+  var submitBtn = document.getElementById('submitBtn');
+  var msgs = {
+    en: {req:'This field is required.', email:'Enter a valid email address.', phone:'Enter a valid phone number with country code.', ok:'Opening WhatsApp with your inquiry. Please review and send it there.', nocfg:'Our WhatsApp contact is not configured yet. Please email us or try again later.'},
+    ar: {req:'هذا الحقل إلزامي.', email:'أدخل بريدًا إلكترونيًا صحيحًا.', phone:'أدخل رقم هاتف صحيحًا مع رمز الدولة.', ok:'جارٍ فتح واتساب بتفاصيل استفسارك. راجعها وأرسلها من هناك.', nocfg:'لم يتم إعداد قناة واتساب بعد. يرجى المراسلة عبر البريد الإلكتروني أو المحاولة لاحقًا.'}
+  };
+  var fields = ['name','company','country','email','phone','cat','qty','width','weight','dest'];
+  var ids = {name:'f-name',company:'f-company',country:'f-country',email:'f-email',phone:'f-phone',cat:'f-cat',qty:'f-qty',width:'f-width',weight:'f-weight',dest:'f-dest'};
+
+  function check(){
+    var ok = true, first = null;
+    fields.forEach(function(k){
+      var el = document.getElementById(ids[k]); var err = document.getElementById('e-' + k);
+      var v = el.value.trim(), m = '';
+      if (!v) m = msgs[lang].req;
+      else if (k === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)) m = msgs[lang].email;
+      else if (k === 'phone' && !/^\+?[0-9\s-]{8,20}$/.test(v)) m = msgs[lang].phone;
+      err.textContent = m;
+      el.setAttribute('aria-invalid', m ? 'true' : 'false');
+      if (m){ ok = false; if (!first) first = el; }
+    });
+    if (first) first.focus();
+    return ok;
+  }
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    status.className = 'status';
+    if (!check()) return;
+    var g = function(k){ return document.getElementById(ids[k]).value.trim(); };
+    var cat = document.getElementById('f-cat').selectedOptions[0].textContent;
+    var txt = [
+      'Inquiry - Wadi El Molouk',
+      'Product: ' + cat,
+      'Name: ' + g('name'), 'Company: ' + g('company'), 'Country: ' + g('country'),
+      'Email: ' + g('email'), 'Phone/WhatsApp: ' + g('phone'),
+      'Estimated quantity: ' + g('qty'), 'Width: ' + g('width'), 'Weight: ' + g('weight'),
+      'Delivery destination: ' + g('dest'),
+      'Technical requirements: ' + (document.getElementById('f-tech').value.trim() || '-')
+    ].join('\n');
+    if (!WA_NUMBER){
+      status.textContent = msgs[lang].nocfg; status.className = 'status show error'; return;
+    }
+    submitBtn.disabled = true; form.classList.add('loading');
+    status.textContent = msgs[lang].ok; status.className = 'status show info';
+    window.open('https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(txt), '_blank', 'noopener');
+    setTimeout(function(){ submitBtn.disabled = false; form.classList.remove('loading'); }, 1500);
+  });
+})();
+</script>
+</body>
+</html>
